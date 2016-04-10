@@ -1,0 +1,48 @@
+{
+  "name": "chord_calculator",
+  "description": "Scripts for calculating music-theory-based results",
+  "version": "0.1.0",
+  "homepage": "https://github.com/abelnation/chord_calculator",
+  "author": {
+    "name": "aallison",
+    "email": "aallison@yahoo-inc.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/abelnation/chord_calculator.git"
+  },
+  "bugs": "https://github.com/abelnation/chord_calculator/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/abelnation/chord_calculator/blob/master/LICENSE-MIT"
+    }
+  ],
+  "scripts": {
+    "test": "grunt test",
+    "lint": "grunt lint",
+    "setup": "./script/setup.sh"
+  },
+  "dependencies": {
+    "json-query": "^1.4.0",
+    "rx": "^2.3.13",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "underscore": "^1.7.0",
+    "load-grunt-tasks": "^0.6.0",
+    "glob": "^4.0.6",
+    "grunt-timer": "^0.5.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-dev-update": "^0.9.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-bump": "^0.0.16",
+    "grunt-env": "^0.4.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-jscs": "^0.7.1",
+    "grunt-shell": "^1.1.1",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-jasmine-node": "^0.2.1"
+  },
+  "keywords": []
+}

@@ -1,0 +1,16 @@
+.js
+-min.js
+
+node_modules
+.sass-cache
+.grunt
+npm-debug.log
+
+_SpecRunner.html
+test_results
+coverage
+
+docs
+
+*.backup
+scratch
